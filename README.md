@@ -21,7 +21,7 @@ To avoid 'Access Denied' errors locally, We have used colab to execute code (htt
 
 * File > Upload notebook > open aimmx.ipynb 
 
-* Execute command mentioned in first cell. Upload all files in Data folder
+* To upload all files which are in Data folder,execute command mentioned in first cell
 
 * Select runtime in menu > Run all (all required installations are done with pip install commands)
 
@@ -31,16 +31,15 @@ To avoid 'Access Denied' errors locally, We have used colab to execute code (htt
 
      * [Settings > Developer Settings > Personal access tokens > "Generate new token"](https://github.com/settings/tokens)
 
-*Validate the output metadata with Readme file of corresponding input software repository link.Model name, dataset ,references , framework and domain 
-can be verified with corresponding paper.
+* Validate the output metadata with Readme file of corresponding input software repository link.Model name, dataset ,references , framework and domain 
+
+can be verified with corresponding paper
 
 ## Data
 
-* Provide a AI related model github repository link as input to AIMMX library. Example repository links are provided in notebook(end of AIMMX.ipynb).
+* Provide a AI related model github repository link as input to AIMMX library. Example repository links are provided in notebook(end of AIMMX.ipynb).AIMMX library process the 
 
-AIMMX library process the code and refereces of input github repository link and then fetch the metadata of AI model(model name, domain, framework, 
-
-dataset and references used).
+code and refereces of input github repository link and then fetch the metadata of AI model(model name, domain, framework, dataset and references used).
 
 * Dataset used for extracting metadata information are uploaded in Data folder
 
@@ -51,26 +50,24 @@ dataset and references used).
 
 ## Delta
 
-#Process Delta
+##Process Delta
 
-* We have taken complete code from original paper. We have faced 'access denied' and 'installation problems' while executing code locally.We tried to change 
+* We have taken complete code from original paper. We have faced 'access denied' and 'installation problems' while executing code locally.We tried to change permission settings 
 
-permission settings and used different python IDE's to execute code locally.But still we faced issue.To avoid this errors and run code flexibly, 
+and used different python IDE's to execute code locally.But still we faced issue.To avoid this errors and run code flexibly, we modified the structure of code and merged into a 
 
-we modified the structure of code and merged into a single file(aimmx.ipynb) after understanding the whole process. The merged file consists of process of 
-
-five extractors and util classes.
+single file(aimmx.ipynb) after understanding the whole process. The merged file consists of process of five extractors and util classes.
 
 * We also tried to change the way of extracting references using arxivID, as we still got the same output as original paper we used same logic for extraction.
 
-#Data Delta
+##Data Delta
 
-* The dataset used for evaluation in paper is very huge(7998 repositories). We have collected dataset of 24 AI model repositories for evaluation and analysis 
+* The dataset used for evaluation in paper is very huge(7998 repositories). We have collected dataset of 24 AI model repositories for evaluation and analysis with respect to 
 
-with respect to software repositories. We have five different extractors in AIMMX model,sample output can be seen in AIMMX file.Output has been manually evaluated 
+software repositories. We have five different extractors in AIMMX model,sample output can be seen in AIMMX file.Output has been manually evaluated by examining corresponding 
 
-by examining corresponding github repository code and related papers.
+github repository code and related papers.
 
-*Evaluation results are almost similiar to the results of original paper, except reference extraction. We got less accuracy for reference extraction compared to 
+* Evaluation results are almost similiar to the results of original paper, except reference extraction. We got less accuracy for reference extraction compared to the original 
 
-the original paper.
+paper.
