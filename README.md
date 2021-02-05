@@ -53,11 +53,9 @@ code and refereces of input github repository link and then fetch the metadata o
 ## Process Delta
 
 * We have taken complete code from original paper. We have faced 'access denied' and 'installation problems' while executing code locally.We tried to change permission settings 
-
 and used different python IDE's to execute code locally.But still we faced issues.
 
 * To avoid this errors and run code flexibly, we modified the structure of code and merged into a single file(aimmx.ipynb) after understanding the whole process. The merged file 
-
 consists of process of five extractors and util classes.
 
 * We also tried to change the way of extracting references using arxivID, as we still got the same output as original paper we used same logic for extraction.
@@ -65,11 +63,9 @@ consists of process of five extractors and util classes.
 ## Data Delta
 
 * The dataset used for evaluation in paper is very huge(7998 repositories). We have collected dataset of 24 AI model repositories for evaluation and analysis with respect to 
-
 software repositories.We have five different extractors in AIMMX model,sample output can be seen in AIMMX file. 
 
 * Output has been manually evaluated by examining corresponding  github repository code and related papers.
 
 * Evaluation results are almost similiar to the results of original paper, except reference extraction.We got less accuracy for reference extraction compared to the original 
-
 paper.
