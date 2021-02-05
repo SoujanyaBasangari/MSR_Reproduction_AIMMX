@@ -38,7 +38,6 @@ can be verified with corresponding paper
 ## Data
 
 * Provide a AI related model github repository link as input to AIMMX library. Example repository links are provided in notebook(end of AIMMX.ipynb).AIMMX library process the 
-
 code and refereces of input github repository link and then fetch the metadata of AI model(model name, domain, framework, dataset and references used).
 
 * Dataset used for extracting metadata information are uploaded in Data folder
