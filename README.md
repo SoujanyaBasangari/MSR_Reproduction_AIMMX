@@ -23,13 +23,13 @@ To avoid 'Access Denied' errors locally, We have used colab to execute code (htt
 
 * To upload all files which are in Data folder,execute command mentioned in first cell
 
-* Select runtime in menu > Run all (all required installations are done with pip install commands)
-
 * Go to examples section at end of notebook. Generate GitHub API Key using below steps and then give a github repository link as input.
 
      * On [GitHub](https://github.com/), click your profile picture in the top-right
 
      * [Settings > Developer Settings > Personal access tokens > "Generate new token"](https://github.com/settings/tokens)
+
+* Select runtime in menu > Run all (all required installations are done with pip install commands)
 
 * Validate the output metadata with Readme file of corresponding input software repository link.Model name, dataset ,references , framework and domain 
 can be verified with corresponding paper
